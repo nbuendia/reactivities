@@ -1,4 +1,6 @@
 import React from "react";
+
+//SEMANTIC UI
 import { Dimmer, Loader } from "semantic-ui-react";
 
 interface Props {
