@@ -8,7 +8,7 @@ import { Container } from 'semantic-ui-react';
 //COMPONENTS
 import NavBar from './NavBar';
 import HomePage from '../../features/home/HomePage';
-import ActivityDashboard from '../../features/activities/dashboard/ActivityDashboard';
+import ActivityDashboard from '../../features/activities/dashboard/dashboard/ActivityDashboard';
 import ActivityForm from '../../features/activities/dashboard/form/ActivityForm';
 import ActivityDetails from '../../features/activities/dashboard/details/ActivityDetails';
 
