@@ -7,6 +7,8 @@ import {Segment, Grid, Icon} from 'semantic-ui-react';
 //COMPONENTS
 import {Activity} from "../../../../app/layout/models/activity";
 
+import {format} from 'date-fns';
+
 interface Props {
     activity: Activity
 }
@@ -31,7 +33,7 @@ function ActivityDetailedInfo({activity}: Props) {
                     </Grid.Column>
                     <Grid.Column width={15}>
             <span>
-              {activity.date}
+              {format(activity.date!, 'MMM dd yyyy h:mm aa')}
             </span>
                     </Grid.Column>
                 </Grid>
