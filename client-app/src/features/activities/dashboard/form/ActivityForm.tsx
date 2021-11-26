@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { observer } from "mobx-react-lite";
 import { useStore } from "../../../../app/stores/store";
 import { Activity } from "../../../../app/layout/models/activity";
@@ -9,7 +10,6 @@ import {v4 as uuid} from 'uuid';
 import { Button, Header, Segment } from "semantic-ui-react";
 import { useHistory, useParams } from "react-router";
 import LoadingComponent from "../../../../app/layout/LoadingComponent";
-import { Link } from "react-router-dom";
 
 //FORMIK
 import { Formik, Form } from "formik";

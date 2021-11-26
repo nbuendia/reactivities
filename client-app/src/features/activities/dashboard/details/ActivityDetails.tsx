@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
+import { useParams } from "react-router";
 import { useStore } from "../../../../app/stores/store";
+import { observer } from "mobx-react-lite";
 
 //SEMANTIC UI
 import { Grid } from "semantic-ui-react";
 
-//COMPONENT
+//COMPONENTs
 import LoadingComponent from "../../../../app/layout/LoadingComponent";
-import { useParams } from "react-router";
-import { observer } from "mobx-react-lite";
 import ActivityDetailedHeader from "./ActivityDetailedHeader";
 import ActivityDetailedInfo from "./ActivityDetailedInfo";
 import ActivityDetailedChat from "./ActivityDetailedChat";

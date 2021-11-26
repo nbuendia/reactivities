@@ -1,14 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { observer } from 'mobx-react-lite';
+import {format} from 'date-fns';
 
 //SEMANTIC UI
 import {Button, Header, Item, Segment, Image} from 'semantic-ui-react';
 
 //COMPONENTS
 import {Activity} from "../../../../app/layout/models/activity";
-import { Link } from 'react-router-dom';
-
-import {format} from 'date-fns';
 
 const activityImageStyle = {
     filter: 'brightness(30%)'
